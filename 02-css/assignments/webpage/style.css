@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  background-color: black;
+  height: 30vh;
+  display: block;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 27vh;
+  max-width: 50vh;
+  justify-self: center;
+}
+
+.youtube-cards {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  height: 65vh;
+}
+
+.card {
+  max-height: 50vh;
+  margin-top: 5vh;
+  border-radius: 50px;
+  border: solid 4px #046163;
+  padding: 0;
+  background-color: #d9dbdd;
+}
+
+.card img {
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn {
+  color: #000;
+  outline: 1px solid #245a91;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: #245a91;
+  box-shadow: 0 0 5px 0 #3b454e;
+}
+
+.footer {
+  border: 2px solid black;
+  height: 5vh;
+  text-align: center;
+  background-color: #070303;
+  color: #046163;
+}
